@@ -2,19 +2,23 @@
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- we first include a file which contains the docinfo element: -->
-  <xi:include href="./docinfo.ptx" />
+  <xi:include href="./bookinfo.ptx" />
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
+  <book xml:id="dmalaps">
+    <title>Discrete Mathematics with Applied Linear Algebra, Probability, and Statistics</title>
     <subtitle>An example to get you started</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
     <xi:include href="./chap1.xml" />
-
+    <xi:include href="./chap2.xml" />
+    <xi:include href="./chap3.xml" />
+    <xi:include href="./chap4.xml" />
+    <xi:include href="./chap5.xml" />
+    <xi:include href="./chap6.xml" />
+    <xi:include href="./chap7.xml" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
