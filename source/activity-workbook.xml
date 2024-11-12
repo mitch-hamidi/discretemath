@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="bookinfo.xml" />
+
+  <book xml:id="activity-workbook">
+      <title><line>Activity Workbook</line>
+      <line>for</line>
+      <line>Understanding Linear Algebra</line>
+      </title>
+    <frontmatter permid="bIP">
+      <!-- Don't xi:include the titlepage, since solution authors differ -->
+      <titlepage >
+
+      <author>
+        <personname>David Austin</personname>
+        <department>Department of Mathematics</department>
+        <institution>Grand Valley State University</institution>
+        <email>austind@gvsu.edu</email>
+      </author>
+
+      <date><today /></date>
+      </titlepage>
+
+      <preface>
+        <p>
+	  This workbook consists of the activities from
+	  <pubtitle>Understanding Linear Algebra</pubtitle>, which is
+	  available at
+	  <url href="http://gvsu.edu/s/0Ck" visual="gvsu.edu/s/0Ck"/>.
+	  For technical reasons, some of the preview activities do not
+	  appear in this document though they should in the future.
+        </p>
+
+        <p>
+	  Each activity appears on its own page or pages so it should
+	  be relatively easy to pull out individual activities.
+        </p>
+
+        <p>
+	  A solution manual for these activities is available for
+	  course instructors upon request.
+        </p>
+      </preface>
+
+    </frontmatter>
+
+    <xi:include href="./chap1.xml" />
+    <xi:include href="./chap2.xml" />
+    <xi:include href="./chap3.xml" />
+    <xi:include href="./chap4.xml" />
+    <xi:include href="./chap5.xml" />
+    <xi:include href="./chap6.xml" />
+    <xi:include href="./chap7.xml" />
+    <backmatter>
+    <colophon>
+      <p>
+	This book was authored in <pretext />.
+      </p>
+    </colophon>
+    </backmatter>
+
+  </book>
+
+</pretext>
