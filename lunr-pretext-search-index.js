@@ -10,6 +10,15 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
+  "id": "frontmatter-4",
+  "level": "1",
+  "url": "frontmatter-4.html",
+  "type": "Acknowledgements",
+  "number": "",
+  "title": "Acknowledgements",
+  "body": " This text is a remix of the following textbooks:     Understanding Linear Algebra by David Austin licensed under the CC BY 4.0 license . ©2023 David Austin.     Applied Discrete Structures by Al Doerr and Ken Levasseur licensed under the CC BY-NC-SA 3.0 US license . ©2024 Al Doerr, Ken Levasseur.    "
+},
+{
   "id": "sec-expect",
   "level": "1",
   "url": "sec-expect.html",
