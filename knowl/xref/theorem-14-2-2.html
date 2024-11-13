@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="theorem theorem-like"><h3 class="heading">
+<span class="type">Theorem</span><span xmlns:pf="https://prefigure.org" class="space"> </span><span class="codenumber">14.2.12</span><span xmlns:pf="https://prefigure.org" class="period">.</span><span xmlns:pf="https://prefigure.org" class="space"> </span><span class="title">Recursive implies Generating.</span>
+</h3>
+<div xmlns:pf="https://prefigure.org" class="para logical"><ol class="lower-alpha" id="theorem-14-2-2-2-1-1">
+<li><div class="para">If <span class="process-math">\(A\)</span> is countable, then there exists a generating algorithm for <span class="process-math">\(A^*\text{.}\)</span>
+</div></li>
+<li><div class="para">If <span class="process-math">\(L\)</span> is a recursive language over a countable alphabet, then there exists a generating algorithm for <span class="process-math">\(L\text{.}\)</span>
+</div></li>
+</ol></div></article><details xmlns:pf="https://prefigure.org" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para">Part (a) follows from the fact that <span class="process-math">\(A^*\)</span> is countable; therefore, there exists a complete list of strings in <span class="process-math">\(A^*\text{.}\)</span>
+</div>
+<div class="para">To generate all strings of <span class="process-math">\(L\text{,}\)</span> start with a list of all strings in <span class="process-math">\(A^*\)</span> and an empty list, <span class="process-math">\(W\text{,}\)</span> of strings in <span class="process-math">\(L\text{.}\)</span> For each string <span class="process-math">\(s\text{,}\)</span> use a recognition algorithm (one exists since <span class="process-math">\(L\)</span> is recursive) to determine whether <span class="process-math">\(s\in L\text{.}\)</span> If <span class="process-math">\(s \in L\text{,}\)</span> add it to <span class="process-math">\(W\text{;}\)</span> otherwise “throw it out.” Then go to the next string in the list of <span class="process-math">\(A^*\text{.}\)</span>
+</div></article></details><span class="incontext"><a class="internal" href="s-free-monoids-and-languages.html#theorem-14-2-2">in-context</a></span>
+</body>
+</html>
