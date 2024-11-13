@@ -8,7 +8,27 @@
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
   <title>Backmatter</title>
 
+  <xi:include href="./App-Algorithms.xml" />
+  <xi:include href="./App-pythonsage.xml" />
+  <xi:include href="./App-Det.xml" />
   <xi:include href="./sage-reference.xml" />
+
+  <solutions  xml:id="solutions-backmatter" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+    <title>Hints and Solutions to Selected Exercises</title>
+    <idx><h>solutions</h></idx>
+    <introduction>
+      <p>For the most part, solutions are provided here for odd-numbered exercises.	</p>
+    </introduction>
+  </solutions>
+
+  <appendix><title>Notation</title>
+    <p>The following table defines the notation used in this book. Page numbers or references refer to the first appearance of each symbol.</p>
+    <notation-list />
+  </appendix>
+
+  <appendix><title>Glossary</title>
+    <xi:include href="glossary.xml"/>
+  </appendix>
 
   <index>
     <title>Index</title>

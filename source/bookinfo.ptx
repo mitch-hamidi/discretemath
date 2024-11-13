@@ -26,6 +26,7 @@
   <!-- to define these semantically, so that the macro relates to what-->
   <!-- it defines. -->
   <macros>
+    <!-- ULA Macros -->
     \newcommand{\avec}{{\mathbf a}}
     \newcommand{\bvec}{{\mathbf b}}
     \newcommand{\cvec}{{\mathbf c}}
@@ -91,6 +92,20 @@
     \newcommand{\uhat}{\widehat{\uvec}}
     \newcommand{\what}{\widehat{\wvec}}
     \newcommand{\Sighat}{\widehat{\Sigma}}
+
+    <!-- ADS Macros-->
+    \newcommand{\identity}{\mathrm{id}}
+    \newcommand{\notdivide}{{\not{\mid}}}
+    \newcommand{\notsubset}{\not\subset}
+    \newcommand{\lcm}{\operatorname{lcm}}
+    \newcommand{\gf}{\operatorname{GF}}
+    \newcommand{\inn}{\operatorname{Inn}}
+    \newcommand{\aut}{\operatorname{Aut}}
+    \newcommand{\Hom}{\operatorname{Hom}}
+    \newcommand{\cis}{\operatorname{cis}}
+    \newcommand{\chr}{\operatorname{char}}
+    \newcommand{\Null}{\operatorname{Null}}
+    \renewcommand{\vec}[1]{\mathbf{#1}}
   </macros>
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
@@ -99,6 +114,9 @@
   <!-- To be edited if necessary
     <latex-image-preamble> \usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} </latex-image-preamble>
   -->
+  <latex-image-preamble>
+    \usepackage{amsmath}
+  </latex-image-preamble>
 
   <!-- It is possible to rename elements: -->
   <!-- <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
