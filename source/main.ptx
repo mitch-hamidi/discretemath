@@ -6,7 +6,7 @@
 
   <book xml:id="dmalaps">
     <title>Discrete Mathematics with Applied Linear Algebra, Probability, and Statistics</title>
-    <subtitle>An example to get you started</subtitle>
+    <!--<subtitle>An example to get you started</subtitle>-->
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />

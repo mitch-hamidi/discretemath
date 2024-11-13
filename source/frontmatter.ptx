@@ -4,25 +4,48 @@
 <!-- works. -->
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+
   <bibinfo>
   
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>Mitch Hamidi</personname>
+      <department>Department of Mathematics</department>
+      <institution>Embry-Riddle Aeronautical University</institution>
+      <email>hamidim@erau.edu</email>
+    </author>
+    <author>
+      <personname>Lara Ismert</personname>
+      <department>Department of Mathematics</department>
+      <institution>Embry-Riddle Aeronautical University</institution>
+      <email>ismertl@erau.edu</email>
+    </author>
+    <author>
+      <personname>Brent Solie</personname>
+      <department>Department of Mathematics</department>
+      <institution>Embry-Riddle Aeronautical University</institution>
+      <email>solieb@erau.edu</email>
     </author>
     <date>
       <today />
     </date>
 
     <website>
-      <url href="https://pretextbook.org">My Website</url>
+      <url href="https://mitch-hamidi.github.io/discretemath/">Discrete Mathematics 
+        with Applied Linear Algebra, Probability, and Statistics</url>
     </website>
 
     <copyright>
-      <year>2020<ndash />2024</year>
-      <holder>You</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+      <year>2024</year>
+      <holder>Mitch Hamidi, Lara Ismert, Brent Solie</holder>
+      <minilicense>CC BY-NC-SA 4.0 License</minilicense>
+      <shortlicense>
+	This work is licensed under a <url rel="license"
+	href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+	visual="creativecommons.org">Creative
+	Commons Attribution-NonCommercial-ShareAlike 4.0 International License</url>.  
+	<sidebyside width="25%">
+	  <image source="images/license" />
+	</sidebyside>
       </shortlicense>
     </copyright>
   
@@ -35,5 +58,30 @@
   <colophon xml:id="front-colophon">
     <colophon-items/>
   </colophon>
+
+  <acknowledgement>
+    <p>This text is a remix of the following textbooks:</p>
+    <ul>
+      <li>
+        <p>
+          <em><url href="https://understandinglinearalgebra.org/home.html">
+            Understanding Linear Algebra</url></em> by 
+            <url href="https://davidaustinm.github.io">David Austin</url> licensed 
+            under the <url href="https://creativecommons.org/licenses/by/4.0/">
+              CC BY 4.0 license</url>. &copy;2023 David Austin.
+        </p>
+      </li>
+      <li>
+        <p>
+          <em><url href="https://discretemath.org">
+            Applied Discrete Structures</url></em> by 
+            Al Doerr and <url href="https://faculty.uml.edu//klevasseur/">Ken Levasseur</url>
+            licensed under the <url href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/">
+              CC BY-NC-SA 3.0 US license</url>. &copy;2024 Al Doerr, Ken Levasseur.
+        </p>
+      </li>
+    </ul>
+
+  </acknowledgement>
 </frontmatter>
 
