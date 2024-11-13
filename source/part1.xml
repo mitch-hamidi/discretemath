@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part xml:id="part1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Algebra</title>
+
+    <!-- Include chapters -->
+    <xi:include href="./chap1.xml" />
+    <xi:include href="./chap2.xml" />
+    <xi:include href="./chap3.xml" />
+    <xi:include href="./chap4.xml" />
+    <xi:include href="./chap5.xml" />
+    <xi:include href="./chap6.xml" />
+    <xi:include href="./chap7.xml" />
+  
+</part>
